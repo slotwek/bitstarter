@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
     buf[i] = str.charCodeA(i);
   }
   */
-  resonse.send(fileName);
+  response.send(fileName);
 });
 
 /*
